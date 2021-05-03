@@ -1,0 +1,83 @@
+nav{
+    display: flex;
+    justify-content: space-around; 
+    width: 15%;
+    margin-left: auto; 
+    padding: 17px;
+}
+.google-app{
+    height: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+#icon-container{
+    background-color: red;
+    position: relative;
+}
+main{
+    text-align: center;
+}
+input{
+width: 45%;
+height: 40px;
+border-radius: 30px;
+border: 1px solid rgb(197, 192, 192);
+outline: none;
+}
+input:hover{
+   box-shadow: 2px 0px 5px 0px rgb(211, 209, 209);
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 22%;
+    margin-left: 40%;
+}
+.btn1:hover, .btn2:hover{
+    box-shadow: 2px 0px 5px 0px rgb(211, 209, 209);
+}
+button{
+    margin-top: 30px;
+    padding: 15px;
+    background-color:rgb(245, 245, 245);
+    border: unset;
+    font-size: 15px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.foot a{
+    text-decoration: none;
+    color: gray;
+    padding-top: 5px;
+}
+footer{
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgb(230, 224, 224);
+}
+#Nigeria{
+    border-bottom: 1px solid rgb(187, 187, 187);
+    margin-bottom: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#Nigeria a{
+    text-decoration: none; 
+    color: grey;
+}
+p a{
+text-decoration: none;
+}
+.foot:hover{
+   text-decoration: underline;
+}
